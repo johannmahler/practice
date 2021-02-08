@@ -1,0 +1,28 @@
+# ===================================
+# Generator: http://pixelfolk.net/tools/robots
+# Erstellt am: 08.02.2021, 10:17
+# Webseite: http://http://johannmahler.github.io/practice/
+# ===================================
+
+
+# ===================================
+# Folgende Seiten sollen nicht indexiert werden:
+# ===================================
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /admin/
+Disallow: /temp/
+
+# ===================================
+# Schließe folgende Spider komplett aus:
+# ===================================
+
+User-agent: WebReaper
+User-agent: WebCopier
+User-agent: Offline Explorer
+User-agent: HTTrack
+User-agent: Microsoft.URL.Control
+User-agent: EmailCollector
+User-agent: penthesilea
+Disallow: /
